@@ -1,6 +1,6 @@
 .ul{
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .li{
@@ -9,4 +9,21 @@
 
 .div1{
     border: 2px solid ;
+    
+}
+
+.liList{
+   margin-top: 40px; 
+   font-size: 1.5rem;
+
+
+}
+.li:hover{
+    cursor: pointer;
+}
+.liList:hover{
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 300ms;
+    transition-duration: 400ms;
 }

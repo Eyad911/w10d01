@@ -1,13 +1,5 @@
-function Post ({post})  {
-    return ( <div><h1>Post</h1>
-            
-            
-            
-            <><h1>{post.title}</h1>
-            <p>{post.body}</p></>
-           
-        ) </div>);
-}
+import styles from './../../styles/post.module.css'
+
 export async function getStaticPaths() {
     // Call an external API endpoint to get posts
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
@@ -35,7 +27,16 @@ export async function getStaticPaths() {
   }
   
   
-
+  const Post =({post})=>  {
+    return ( <div className={styles.div1}><h1>Post</h1>
+            
+            
+            
+            <><h1>{post.title}</h1>
+            <p>{post.body}</p></>
+           
+         </div>);
+}
 
  
 export default Post;

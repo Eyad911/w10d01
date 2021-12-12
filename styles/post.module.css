@@ -1,0 +1,11 @@
+.div1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:1px solid;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(206, 183, 155);
+
+}

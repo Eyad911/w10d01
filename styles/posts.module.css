@@ -1,0 +1,21 @@
+.div1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:1px solid;
+    border-radius: 30px;
+    text-align: center;
+ background-color: rgb(206, 183, 155);
+ 
+}
+.div1:hover{
+    cursor: pointer;
+}
+.divmain{
+    text-align: center;
+
+}
+
+.divmain h1{
+    font-family: 'Times New Roman', Times, serif;
+}
