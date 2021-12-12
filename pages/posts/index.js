@@ -15,10 +15,10 @@ export async function getStaticProps(context) {
   
 
 const Posts = ({post}) => {
-    return ( <div className={styles.divmain}><h1>Posts</h1>
+    return ( <div className={styles.divmain} ><h1>Posts</h1>
         {post.map((item)=>
-        <div className={styles.div1}>
-            <Link href={`posts/${item.id}`} key={item.id}><div>
+        <div className={styles.div1} key={item.id}>
+            <Link href={`posts/${item.id}`} ><div>
             <h1>{item.title}</h1>
             <p>{item.body}</p></div></Link></div>
            
